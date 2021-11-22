@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.helicopterImage{
+    position: relative;
+    animation-name: xanis;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+
+.helicopterImage img{
+width: 200px;
+height: auto;
+position: absolute;
+top:  200px;
+}
+
+.flat1{
+    background-color: blue;
+    width: 300px;
+    height: 230px;
+    position: absolute;
+    top: 300px;
+}
+.flat2{
+    background-color: red;
+    width: 300px;
+    height: 230px;
+    position: absolute;
+    top: 300px;
+    left: 500px;
+}
+@keyframes xanis{
+    0%{
+     bottom: 0px;
+     left: 100px;
+    }
+    25%{
+        bottom: 100px;
+        left: 300px;
+    }
+    50%{
+        bottom: 100px;
+        left: 500px;
+    }
+    75%{
+        bottom: -35px;
+        left: 500px;
+    }
+    100%{
+        
+    }
+}
